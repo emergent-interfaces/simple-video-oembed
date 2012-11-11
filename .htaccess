@@ -1,0 +1,8 @@
+# todo Switch from rewrites to aliases
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  
+  RewriteRule ^videos/?$ /index.php
+  RewriteRule ^videos/([a-z0-9A-Z_\-\ ]+)$ /index.php?video=$1
+  RewriteRule ^oembed oembed.php
+</IfModule>

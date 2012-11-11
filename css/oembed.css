@@ -1,0 +1,38 @@
+body {
+  background: #CCC;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+p {
+  padding-left: 10px;
+}
+
+table {
+  border-top: 1px solid #E0E0E0;
+  width: 100%;
+}
+
+table tr {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+table tr.odd {
+  background: #B8B8B8;
+}
+
+table td {
+  padding: 0.5em 1em;
+}
+
+table td.property {
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+}
